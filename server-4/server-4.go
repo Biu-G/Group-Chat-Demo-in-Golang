@@ -25,7 +25,7 @@ func WriteToClients(conn net.Conn,ch chan string){
 }
 func HandleConn(conn net.Conn){
 	defer conn.Close()
-	db,err:=sql.Open("mysql","uroot:xiao201379@tcp(127.0.0.1:3306)/tester")
+	db,err:=sql.Open("mysql","uroot:YOUR_PASSWORD@tcp(127.0.0.1:3306)/tester")
 	checker(err)
 	err=db.Ping()
 	checker(err)
