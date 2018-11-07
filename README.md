@@ -13,3 +13,6 @@ use dataset: 'tester'
 use table :'player'
 change if you're not used to these names
 
+ATTENTION2:
+Install as instructions there first!:   
+https://github.com/go-sql-driver/mysql
